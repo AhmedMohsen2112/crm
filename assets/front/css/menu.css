@@ -1,0 +1,309 @@
+.slimmenu-menu-collapser {
+    position: relative;
+    background-color: #333;
+    color: #fff;
+    width: 100%;
+    height: 48px;
+    line-height: 48px;
+    font-size: 16px;
+    padding: 0 8px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+/*.slimmenu-collapse-button {
+    position: absolute;
+    right: 8px;
+    top: 50%;
+    width: 40px;
+    -webkit-border-radius: 40px;
+    border-radius: 40px;
+    color: #fff;
+    padding: 7px 10px;
+    cursor: pointer;
+    font-size: 14px;
+    text-align: center;
+    -webkit-transform: translate(0, -50%);
+    -moz-transform: translate(0, -50%);
+    -o-transform: translate(0, -50%);
+    -ms-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}*/
+
+.slimmenu-collapse-button {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    line-height: 48px;
+    height: 48px;
+    background: #f0c64a;
+    width: 40px;
+    -webkit-border-radius: 0;
+    border-radius: 0;
+    color: #fff;
+    padding: 18px 10px;
+    cursor: pointer;
+    font-size: 14px;
+    text-align: center;
+    -webkit-transform: translate(0, -50%);
+    -moz-transform: translate(0, -50%);
+    -o-transform: translate(0, -50%);
+    -ms-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.slimmenu-collapse-button .slimmenu-icon-bar {
+    background-color: #f5f5f5;
+    -webkit-border-radius: 1px;
+    border-radius: 1px;
+    -webkit-box-shadow: 0 1px rgba(0,0,0,0.25);
+    box-shadow: 0 1px rgba(0,0,0,0.25);
+    display: block;
+    height: 2px;
+    width: 18px;
+    margin: 2px 0;
+}
+ul.slimmenu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+ul.slimmenu li {
+    position: relative;
+    display: inline-block;
+}
+/*
+ul.slimmenu li a {
+    display: block;
+    padding: 12px 10px;
+    font-size: 15px;    font-weight: bold;
+    text-transform: capitalize;
+
+    color: #5e2b08;
+    -webkit-transition: background-color 0.17s ease-out;
+    -moz-transition: background-color 0.17s ease-out;
+    -o-transition: background-color 0.17s ease-out;
+    -ms-transition: background-color 0.17s ease-out;
+    transition: background-color 0.17s ease-out;
+}
+*/
+
+ul.slimmenu li a {
+    display: block;
+       padding: 12px 8px;
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: capitalize;
+    color: #5e2b08;
+    -webkit-transition: background-color 0.17s ease-out;
+    -moz-transition: background-color 0.17s ease-out;
+    -o-transition: background-color 0.17s ease-out;
+    -ms-transition: background-color 0.17s ease-out;
+    transition: background-color 0.17s ease-out;
+}
+
+ul.slimmenu li.slimmenu-sub-menu a {
+    padding: 12px 34px 12px 20px;
+}
+/*ul.slimmenu li.active > a,
+ul.slimmenu li:hover > a {
+    background: #ecc142;
+    color: #fff;
+}*/
+
+ul.slimmenu li .slimmenu-sub-collapser {
+    position: absolute;
+    right: 11px;
+    top: 0;
+    width: 20px;
+    height: 100%;
+    text-align: center;
+    z-index: 999;
+    cursor: pointer;
+}
+ul.slimmenu li .slimmenu-sub-collapser:before {
+    content: '';
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+ul.slimmenu li .slimmenu-sub-collapser > i {
+    text-align: center;
+    color: #5e2b08;
+    font-size: 18px;
+    vertical-align: middle;
+}
+ul.slimmenu li ul {
+    margin: 0;
+    list-style: none;
+}
+ul.slimmenu li ul li {
+    display: block;
+    border-bottom: 1px dashed rgba(177, 177, 177, 0.52);
+}
+ul.slimmenu li ul li a {
+    background-color: #fff;
+    color: #5e2b08;
+}
+ul.slimmenu li > ul {
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    z-index: 999;
+    padding: 0;
+    min-width: 170px;
+}
+ul.slimmenu li > ul > li ul {
+    display: none;
+    position: absolute;
+    left: 100%;
+    top: 0;
+    z-index: 999;
+    width: 100%;
+}
+ul.slimmenu.slimmenu-collapsed li {
+    display: block;
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+ul.slimmenu.slimmenu-collapsed li ul li a {
+    background: none;
+    color: #ecc142;
+}
+ul.slimmenu.slimmenu-collapsed li ul li a:hover {
+    background: #ecc142;
+    color: #fff;
+}
+ul.slimmenu.slimmenu-collapsed li a {
+    display: block;
+    border-bottom: 1px solid rgba(0,0,0,0.075);
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+/*
+ul.slimmenu.slimmenu-collapsed li > ul {
+    display: none;
+    position: static;
+    width: 100%;
+    padding-left: 50px;
+}
+*/
+
+ul.slimmenu.slimmenu-collapsed li > ul {
+    display: none;
+    position: static;
+    width: 100%;
+    padding-left: 50px;
+    height: auto !important;
+}
+
+ul.slimmenu.slimmenu-collapsed li .slimmenu-sub-collapser {
+    height: 45px;
+    width: 50px;
+    right: inherit;
+    left: 0;
+    background: #f0c64a;
+}
+ul.slimmenu.slimmenu-collapsed li .slimmenu-sub-collapser > i {
+    color: #fff;
+}
+
+
+
+ul.slimmenu li .slimmenu-sub-collapser {
+    position: absolute;
+    left: 0;
+    right: inherit;
+    top: 0;
+    width: 20px;
+    height: 100%;
+    text-align: center;
+    z-index: 999;
+    cursor: pointer;
+}
+ul.slimmenu li.slimmenu-sub-menu a {
+    padding: 12px 20px 12px 20px;
+}
+ul.slimmenu li > ul {
+
+    position: absolute;
+    right: 0;
+    left: inherit;
+    top: 100%;
+    z-index: 999;
+    padding: 0;
+    min-width: 170px;
+}
+
+ul.slimmenu li > ul > li ul {
+    display: none;
+    position: absolute;
+    right: 100%;
+    top: 0;
+    z-index: 999;
+    width: 100%;
+}
+
+
+/*
+ul.slimmenu li .slimmenu-sub-collapser {
+    position: absolute;
+    left: 0;
+    right: inherit;
+    top: 0;
+    width: 20px;
+    height: 100%;
+    text-align: center;
+    z-index: 999;
+    cursor: pointer;
+}
+*/
+ul.slimmenu li .slimmenu-sub-collapser {
+    position: absolute;
+    left: 0;
+    right: inherit;
+    top: 0;
+    width: 15px;
+    height: 100%;
+    text-align: center;
+    z-index: 999;
+    cursor: pointer;
+}
+
+/*
+ul.slimmenu li.slimmenu-sub-menu a {
+    padding: 12px 20px 12px 20px;
+}
+*/
+
+ul.slimmenu li.slimmenu-sub-menu a {padding: 12px 10px 12px 15px;}
+
+ul.slimmenu li > ul {
+    background: #fff;
+    position: absolute;
+    right: 0;
+    left: inherit;
+    top: 100%;
+    z-index: 999;
+    padding: 0;
+    min-width: 170px;    border: 1px solid #e6e6e6;
+}
+
+ul.slimmenu li > ul > li ul {
+    display: none;
+    position: absolute;
+    right: 100%;
+    top: 0;
+    z-index: 999;
+    width: 100%;
+}

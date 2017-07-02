@@ -1,0 +1,396 @@
+.nav-tabs>li>a {
+    margin-right: 2px;
+    line-height: 1.42857143;
+    border: 1px solid transparent;
+    border-radius: 4px 4px 0 0;
+    color: #fff;
+}
+
+.hot-deal-list {
+    background: #fff;
+}
+.transparent-menu {
+    padding: 0;
+}
+/*
+.navbar-header {
+    position: absolute;
+    top: 25px;    z-index: 10001;
+}*/
+
+.navbar-brand>img {
+    width: 90%;
+}
+
+#loader div i.fa img {
+    width: 80px;
+}
+
+.transparent-menu-top {
+
+
+    background: #48230a; /* Old browsers */
+    background: -moz-linear-gradient(top,  #48230a 0%, #9f480c 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  #48230a 0%,#9f480c 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  #48230a 0%,#9f480c 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#48230a', endColorstr='#9f480c',GradientType=0 ); /* IE6-9 */
+
+}
+
+.social-media li {
+    list-style: none;
+    float: right;
+}
+i.fa img {
+    width: 20px;
+}
+
+.social-media ul {
+    padding: 0;
+    margin-top: 7px;
+}
+
+#recent-blog .room-grid-view .room-info .room-book a {background: #f4ae61;}
+#recent-blog .room-grid-view:hover .room-info .room-book a {
+    color: #ffffff;
+    background: #5e2b08;
+}
+
+#recent-blog  .post-title h5 {
+    font-weight: bold;
+    margin-top: 10px;
+    height: 40px;
+    overflow: hidden;
+}
+#recent-blog .post-title p {
+    color: #153955;
+}
+.hot-deals .nav-tabs .active:after {background: #5e2b08 none repeat scroll 0 0;}
+.hot-deals .nav-tabs > li > a {background: #f4ae61;}
+.hot-deals .nav-tabs > li.active > a, .hot-deals .nav-tabs > li.active > a:focus, .hot-deals .nav-tabs > li.active > a:hover {
+    background: #5e2b08;}
+.hot-deal-list .item a {    background: #735f35 none repeat scroll 0 0}
+
+#home-top-destination {background: #f7f7f7;    padding: 60px 0;}
+.main-footer-nav {
+    padding: 30px 0px;
+    background: #0A3152;
+    color: #BEC4C8;}
+.main-footer-sub, .main-footer-nav, .sm-footer-nav {background: #846b36;color: #fff !important;}
+.nav-tabs>li>a:hover {border-color: #eee #eee #ddd;color: #735f35;}
+#recent-blog .room-grid-view .room-info .room-book h5 {padding: 0px 10px;}
+.m15 { margin: 15px 0}
+.transparent-menu .navbar-default .navbar-toggle .icon-bar {
+    background: #163e59;
+}
+
+@media (max-width: 991px) {
+    .navbar-nav .open .dropdown-menu {
+        position: static;
+        float: none;
+        width: auto;
+        margin-top: 0;
+        border: 0;
+        -webkit-box-shadow: none;
+        box-shadow: none;
+        background: #ffffff;
+    }
+
+    .navbar-nav {
+        float: none!important;
+        margin-top: 7.5px;
+        position: relative;
+        z-index: 10005;
+        background: #fff;}
+
+}
+
+.transparent-menu .navbar-default .navbar-toggle {
+    color: #ffffff;
+    z-index: 10001;
+}
+
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border-color: transparent;
+}
+
+.transparent-menu .navbar-nav > li > a {
+    color: #ffffff;
+    font-weight: bold;    letter-spacing: 0;
+    font-size: 16px;    line-height: 100px;
+    padding: 15px 10px;}
+
+.service-desc {
+    border: 1px solid #5e2b08;}
+
+.submit-review {
+    background: #f4ae61 none repeat scroll 0 0;}
+
+.filter-head {
+    background: #082741;
+}
+
+.filter-head h4::after {
+    border: 4px solid #fff;
+    background: #082741;
+}
+
+.filter {padding: 15px 0px;}
+
+.hotel-list-view .room-book-box a {background: #f4ae61;}
+
+.hotel-list-view:hover .room-book-box {
+    color: #ffffff;
+    background: #0a3152;
+}
+.hotel-list-view:hover .room-book-box a {
+    color: #ffffff;
+    border: 2px solid #ffffff;
+    background: #0a3152;
+}
+
+.hot-deal-list .item h5, .hot-deal-list .item h4, .hot-deal-list .item h1 {
+    font-weight: bold;
+    margin-top: 0px;
+    font-size: 15px;
+}
+
+/*.hotel-list-view .book {
+    margin-top: 30px;
+}*/
+
+.hotel-list-view .hotel-info {
+    border-right: 1px solid #e6e6e6;
+    min-height: 220px;
+}
+
+.page-title {
+    padding: 60px 0px;
+    background-attachment: fixed !important;
+    background-size: contain !important;
+    color: #ffffff;
+}
+
+.hotel-list-view .room-book-box h5 {
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.ptb30 { padding: 30px 0;}
+
+textarea.form-control {
+    height: 80px !important;
+}
+
+.passenger-detail-body button {
+    background: #f4ae61 none repeat scroll 0 0;}
+
+.package-detail-sidebar .sidebar-item h4 i {
+    color: #5e2b08;
+    margin-right: 5px;
+}
+
+.package-detail-sidebar .package-summary-body h5 {
+
+    color: #5e2b08;
+
+}
+
+.package-summary-footer .book {
+    background: #5e2b08;
+
+}
+
+.sidebar-booking-box h3 {
+    background: #5e2b08 none repeat scroll 0 0;
+}
+
+.sidebar-booking-box h3:after {
+    background: #5e2b08 none repeat scroll 0 0;
+}
+
+.booking-box-body .input-group-addon {
+    background-color: #5e2b08;}
+
+.package-detail-sidebar .assitance-body a {
+    color: #5e2b08;
+}
+
+.package-complete-detail .nav-tabs>li>a:hover {color: #ffffff;}
+
+.booking-box-body label {width: 100%;text-align: center;}
+
+.input-group {width: 100%;}
+
+.similar-hotel.sidebar-item {
+    margin-top: 30px;
+}
+
+
+.booking-sidebar .sidebar-item h4 i {
+    color: #5e2b08;
+    margin-right: 10px;
+}
+
+
+.overlay2 {
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.3);
+}
+
+.social-media i img {
+    width: 20px !important;
+    height: 20px !important;
+}
+.page-title h3, .page-title h1 {text-shadow: 0px -1px 0px rgba(000, 000, 000, 0.9);
+                                -webkit-text-shadow: 0px -1px 0px #000;
+                                -moz-text-shadow: 0px -1px 0px #000;
+                                text-shadow: 0px -1px 0px #000;
+                                font-weight: 800;
+                                font-size: 28px;}
+
+
+#loader {
+    position: fixed;
+    background: #f7f7f7;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 10001;
+}
+#stoggle {
+    background: rgba(10, 49, 82, 0.8);
+    font-size: 25px;
+    padding: 3px 10px;
+    position: absolute;    z-index: 10003;
+    top: 200px;}
+
+#color-switcher {
+    width: 100%;
+    display: none;
+}
+
+.cswitcher {
+    background: transparent;
+    position: absolute;    z-index: 10002;box-shadow: none;    width: 100%;
+    top: 200px;}
+
+.tab-content>.active {
+    display: block;
+    padding: 30px 15px;
+}
+
+.search-section .tab-content {padding:0;}
+
+.carousel-inner {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    max-height: 665px;
+}
+
+.close {
+    float: right;
+    font-size: 21px;
+    font-weight: 700;
+    padding: 20px;
+    line-height: 1;
+    text-shadow: 0 1px 0 #fff;
+    filter: alpha(opacity=20);
+    opacity: 1;
+}
+
+a#closex {
+    color: #000;
+    opacity: 1;
+    border-radius: 100px;
+    background: #f4ae61;
+    PADDING: 10px 13px;
+    font-size: 10px;
+    line-height: 0;
+}
+.search-section {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+/*
+.search-section .tab-content {
+    color: #07253F;
+    background: rgba(255, 255, 255, 0.67);}*/
+
+
+#stoggle {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#d3a13e+0,e4bb5c+100 */
+    background: #d3a13e; /* Old browsers */
+    background: -moz-linear-gradient(top,  #d3a13e 0%, #e4bb5c 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  #d3a13e 0%,#e4bb5c 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  #d3a13e 0%,#e4bb5c 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d3a13e', endColorstr='#e4bb5c',GradientType=0 ); /* IE6-9 */
+
+    font-size: 25px;
+    padding: 10px 10px;
+    position: absolute;
+    z-index: 10003;
+    top: 200px;
+    height: 200px;
+}
+
+#stoggle i.fa {
+    margin-bottom: 40px;
+}
+
+#ui-datepicker-div {
+    background: #07253F;
+    z-index: 10008 !important;
+}
+
+.choose-us-row {
+    padding: 60px 0px;
+    background: rgba(0, 0, 0, 0.8);
+}
+.main-footer-nav a {
+    color: #fff;
+}
+
+.go-up a {
+    background: #3c3017 none repeat scroll 0 0;
+}
+
+.stamp {
+    opacity: 0.9;
+    position: absolute;
+    top: -6px;
+    left: -11px;
+    text-align: left;
+}
+
+section#ads {
+    padding: 15px 0;
+    background: url('../images/pattern3.png') repeat #d4a64b;    background-size: contain;
+}
+
+section#ads a {
+    display: inline-block;
+    padding: 2px 15px;
+    color: #452008;
+    border: 2px solid #452008;
+    font-weight: bold;
+    line-height: 47px;
+    margin-top: 25px;
+}
+
+section#ads h1 {font-weight: bold;}
+
+section#ads a:hover {
+    background: #452008;
+    border: 2px solid #ffffff;
+    color: #fff;
+}
+.search-button { margin-top: 0px;}
+
+.show-more-box.col-md-12.text-center {
+    margin: 20px;
+}

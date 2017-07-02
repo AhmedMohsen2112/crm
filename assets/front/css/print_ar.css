@@ -1,0 +1,89 @@
+
+body {direction: rtl;}
+.pull-left {float: right!important;}
+.page_print {background: url(../../../images/pattern2.png) #fff repeat;background-size: contain;
+    width: 210mm;
+    min-height: 297mm;
+    padding: 10px;
+    margin: 10mm auto;
+    border: 1px #D3D3D3 solid;
+    border-radius: 5px;
+       box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+strong {margin-left: 10px;}
+strong::after { 
+    content: ":";
+}
+
+
+.pass table tbody tr td {
+    font-size: 14px;
+}
+    .reservation-prices { font-size: 18px; font-weight: bold; text-align: center;}
+    .mbt10 {
+    margin: 10px 0;
+}
+
+.roompr {font-size: 12px; text-align: right}
+
+i.fa {
+    margin-left: 5px;
+}
+.subpage {
+    padding: 5px;
+    border: 2px #000 solid;
+    height: 290mm;position:relative;
+    /*        outline: 2cm #FFEAEA solid;*/
+}
+
+@page {
+    size: A4;
+    margin: 0;
+}
+
+@media print {
+    body { font-size: 11px;}
+    strong { font-weight: bold;}
+    /*    .container-fluid { width: 100%;padding-right: 15px;padding-left: 15px;margin-right: auto;margin-left: auto;}*/
+    .page_print { border: 1px solid #999;
+                  /*        position: relative; height: 1020px; */
+    }
+    .col-md-3 { width: 25%;}
+    .col-md-4 { width: 33.33333333%;}
+    .col-md-6 { width: 50%;}
+    .col-md-8 {width: 66.66666667%;}
+    .main-content { position: relative}
+    .footer {
+        width: 100%; margin: auto; position: absolute; bottom: 5px; left: 0; right: 0; padding: 0 5px;}
+    .footer-image { width: 100% !important;}
+    .page-break   {page-break-after: always;}
+    h3 { font-size: 14px;margin: 5px 0 10px 0 !important; }
+    .table > tbody > tr > td {
+        padding: 5px 15px !important;
+    }
+    .table > thead > tr > th {
+        border-bottom: none;
+        padding: 5px 15px !important;
+    }
+    hr { margin: 10px 0 !important ; }
+
+
+    html, body {
+        width: 210mm;
+        height: 297mm;
+    }
+    .page_print {
+        margin: 0;
+        border: initial;
+        border-radius: initial;
+        width: initial;
+        min-height: initial;
+        box-shadow: initial;
+        background: initial;
+        page-break-after: always;
+    }
+
+
+
+}
